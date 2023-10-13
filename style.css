@@ -22,7 +22,6 @@ header h1 {
 }
 
 .logo-container {
-  margin-top: 3rem;
   display: flex;
   text-align: center;
   align-items: center;
@@ -245,4 +244,26 @@ section {
 }
 
 .signature {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+footer {
+  margin-top: 10rem;
+  align-items: center;
+}
+
+footer p {
+  text-align: end;
+}
+
+footer div {
+  border-top: solid 2px black;
+  background-color: #ddccff;
+  text-align: center;
+  padding: 0.1rem;
 }
