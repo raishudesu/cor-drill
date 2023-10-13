@@ -54,7 +54,6 @@ section {
   justify-content: space-between;
   align-items: center;
   grid-template-columns: auto auto auto;
-  padding: 10px;
 }
 
 .info-container {
@@ -66,4 +65,77 @@ section {
 .gender-age {
   display: flex;
   gap: 2rem;
+}
+
+.general-info-header-2 {
+  background-color: #ddccff;
+  padding: 0.3rem;
+  border-bottom: solid black;
+  border-top: solid black;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.unit div {
+  display: flex;
+  gap: 1rem;
+}
+
+.general-info-2 {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* .subjects {
+  display: flex;
+}
+
+.units {
+  display: flex;
+}
+
+.credits {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+}
+
+.prof {
+  display: flex;
+  flex-direction: column;
+} */
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.unit-details {
+  display: flex;
+  gap: 1rem;
+}
+
+.unit-details-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
