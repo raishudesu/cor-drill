@@ -196,7 +196,7 @@ section {
   display: flex;
 }
 
-#total {
+.total-price {
   width: 10rem;
   text-align: end;
   margin-right: 0.5rem;
