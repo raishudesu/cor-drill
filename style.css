@@ -198,7 +198,7 @@ section {
   padding: 0.2rem;
 }
 
-.total span {
+.total div {
   display: flex;
 }
 
